@@ -1,0 +1,36 @@
+version: '3.3'
+services:
+  web:
+    build:
+      context: ./public_html
+      dockerfile: Dockerfile
+    volumes:
+        - ./public_html:/var/www/html/
+    ports:
+      - 8008:80
+    depends_on:
+      - db
+
+  db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: kcs_db
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: devpass
+    # ports:
+    #     - 6033:3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    depends_on:
+      - db
+    ports:
+      - 8009:80
+    environment:
+      PMA_HOST: db
+      PMA_USER: devuser
+      PMA_PASSWORD: devpass
+      UPLOAD_LIMIT: 2048
