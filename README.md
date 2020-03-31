@@ -5,7 +5,7 @@
 * Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/))
 * Terminale rašykite: 
   * `composer create-project kaunas-coding-school/web`
-  * `docker-compose exec web composer`
+  * `docker-compose exec web composer install`
   * `docker-compose up` 
 
 ### Projekto failų architektūra
