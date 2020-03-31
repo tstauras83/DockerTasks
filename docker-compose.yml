@@ -2,10 +2,10 @@ version: '3.3'
 services:
   web:
     build:
-      context: ./public_html
+      context: ./project
       dockerfile: Dockerfile
     volumes:
-        - ./public_html:/var/www/html/
+        - ./project:/var/www/html/
     ports:
       - 8008:80
     depends_on:
@@ -20,8 +20,6 @@ services:
       MYSQL_DATABASE: kcs_db
       MYSQL_USER: devuser
       MYSQL_PASSWORD: devpass
-    # ports:
-    #     - 6033:3306
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
