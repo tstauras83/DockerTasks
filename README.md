@@ -4,7 +4,7 @@
 * Instaliuokite Composer ([instrukcija](https://getcomposer.org/doc/00-intro.md))
 * Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/))
 * Terminale rašykite: 
-  * `composer create-project kaunas-coding-school/web`
+  * `composer --stability=dev create-project kaunas-coding-school/web`
   * `docker-compose exec web composer install`
   * `docker-compose up` 
 
