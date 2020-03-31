@@ -9,6 +9,6 @@
             "email": "tautvydas@dulskis.eu"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }

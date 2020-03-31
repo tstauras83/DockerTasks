@@ -1,9 +1,10 @@
 #KCS WEB Kurso medžiaga
 ##Kaip pradėti naudotis?
+* Instaliuokite Git ([instrukcija](https://git-scm.com/downloads))
 * Instaliuokite Composer ([instrukcija](https://getcomposer.org/doc/00-intro.md))
 * Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/))
 * Terminale rašykite: 
-  * `composer create-project kcs/web .`
+  * `composer create-project kaunas-coding-school/web .`
   * `docker-compose exec web composer`
   * `docker-compose up` 
 
