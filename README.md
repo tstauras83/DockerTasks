@@ -6,6 +6,10 @@
 * Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/))
 * Terminale rašykite: 
   * `composer --stability=dev create-project kaunas-coding-school/web`
+  * `cd web`
+  * `docker-compose up` (Terminalo lango neuždarykite)
+
+** Kitus kartus tereikia Terminale kur kūrėte Projektą leisti komandą:
   * `docker-compose up` 
 
 ### Projekto failų architektūra
