@@ -20,9 +20,6 @@ COPY ./ /var/www/html/
 RUN chown www-data:www-data -R .
 RUN composer install --prefer-dist --no-plugins --no-scripts
 
-COPY Docker/docker-php-entrypoint.sh /usr/local/bin/docker-php-entrypoint
-RUN chmod +x /usr/local/bin/docker-php-entrypoint
-
 RUN ls -al /var/www/html/
 
 EXPOSE 80

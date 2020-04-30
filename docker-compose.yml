@@ -10,6 +10,9 @@ services:
       - 8008:80
     depends_on:
       - db
+    environment:
+      APACHE_SERVER_NAME: kcs
+      APPLICATION_ENV: development
 
   db:
     image: mysql:latest
