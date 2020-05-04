@@ -8,6 +8,7 @@
   * `composer --stability=dev create-project kaunas-coding-school/web`
   * `cd web`
   * `docker-compose up` (Terminalo lango neuždarykite)
+  * `docker-compose exec web composer install`  
 
 ** Kitus kartus tereikia Terminale kur kūrėte Projektą leisti komandą:
   * `docker-compose up` 
