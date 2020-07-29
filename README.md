@@ -5,7 +5,7 @@ Pieš pradedant naudotis Terminalu privalote mokėti naudotis juo.
 
 * Instaliuokite Git ([instrukcija](https://git-scm.com/downloads))
 * Instaliuokite Composer (instrukcija [Win](https://getcomposer.org/doc/00-intro.md#using-the-installer) | [Mac](https://duvien.com/blog/installing-composer-mac-osx))
-* Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/))
+* Instaliuokite Docker ([instrukcija](https://docs.docker.com/install/) | [WIn 10](https://docs.docker.com/docker-for-windows/install-windows-home/)) (Reikalavimas [Windows 10 2004 versija](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
 * Terminale rašykite: 
   * `composer --stability=dev create-project kaunas-coding-school/web`
  po sėkmingo projekto sukūrimo matysite klausimą `Do you want to remove the existing VCS (.git, .svn..) history? [Y,n]?` spauskite `ENTER` klavišą
