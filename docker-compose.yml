@@ -5,7 +5,7 @@ services:
       context: ./project
       dockerfile: Dockerfile
     volumes:
-        - ./project:/var/www/html/
+      - ./project:/var/www/html/
     ports:
       - 8008:80
     depends_on:
