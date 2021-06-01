@@ -2,15 +2,11 @@
     "name": "kaunas-coding-school/web",
     "description": "Kaunas Coding School Web kurso mokomoji medžaga, praktinės užduotys",
     "type": "project",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Tautvydas Dulskis",
             "email": "tautvydas@dulskis.eu"
         }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-      "ext-pdo": "*"
-    }
+    ]
 }

@@ -10,11 +10,11 @@ Pieš pradedant naudotis Terminalu privalote mokėti naudotis juo.
   * `composer --stability=dev create-project kaunas-coding-school/web`
  po sėkmingo projekto sukūrimo matysite klausimą `Do you want to remove the existing VCS (.git, .svn..) history? [Y,n]?` spauskite `ENTER` klavišą
   * Toliau terminale rašykite`cd web`
-  * `docker-compose up -d`
-  * `docker-compose exec web composer install`  
+  * `docker compose up -d`
+  * `docker compose exec web composer install`  
 
 ** Kitus kartus tereikia Terminale kur kūrėte Projektą leisti komandą:
-  * `docker-compose up -d` 
+  * `docker compose up -d` 
 
 ### Projekto failų architektūra
 ```
