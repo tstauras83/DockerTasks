@@ -2,7 +2,7 @@ version: '3.3'
 services:
   web:
     build:
-      context: configs
+      context: ./
       dockerfile: Dockerfile
     volumes:
       - ./projecto_failai:/var/www/html/
