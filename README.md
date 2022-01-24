@@ -1,5 +1,7 @@
 #KCS WEB Kurso medžiaga
+
 ##Kaip pradėti naudotis?
+
 Pieš pradedant naudotis Terminalu privalote mokėti naudotis juo.
 Čia trumpas Video: [instrukcija](https://www.youtube.com/watch?v=Vhcx4KJbtes)
 
