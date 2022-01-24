@@ -2,10 +2,10 @@ version: '3.3'
 services:
   web:
     build:
-      context: ./project
+      context: configs
       dockerfile: Dockerfile
     volumes:
-      - ./project:/var/www/html/
+      - ./projecto_failai:/var/www/html/
     ports:
       - 80:80
     depends_on:
@@ -39,3 +39,9 @@ services:
       PMA_USER: devuser
       PMA_PASSWORD: devpass
       UPLOAD_LIMIT: 2048
+
+  composer:
+    image: composer
+    command: ["composer", "install"]
+    volumes:
+      - ./projecto_failai:/var/www/html/
