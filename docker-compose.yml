@@ -1,9 +1,7 @@
 version: '3.3'
 services:
   web:
-    build:
-      context: ./
-      dockerfile: Dockerfile
+    image: tautiz/kcs_web
     volumes:
       - ./projecto_failai:/var/www/html/
     ports:
@@ -39,9 +37,3 @@ services:
       PMA_USER: devuser
       PMA_PASSWORD: devpass
       UPLOAD_LIMIT: 2048
-
-  composer:
-    image: composer
-    command: ["composer", "install"]
-    volumes:
-      - ./projecto_failai:/var/www/html/

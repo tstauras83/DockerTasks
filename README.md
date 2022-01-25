@@ -12,13 +12,13 @@ Pieš pradedant naudotis Terminalu privalote mokėti naudotis juo.
   * `git clone git@github.com:kaunas-coding-school/webKursas.git klases_darbas`
   * Toliau terminale rašykite`cd klases_darbas`
   * `docker compose up -d`
+  * `docker compose exec web curl -s https://getcomposer.org/download/latest-stable/composer.phar | php composer.phar install`
 
 ** Kitus kartus tereikia Terminale, kur kūrėte Projektą, paleisti komandą:
   * `docker compose up -d` 
 
 ### Projekto failų architektūra
 ```
-configs (Dokerio konteinerių konfigūraciniai failai)
 db (duomenų bazės failai)
 projecto_failai
 |--- public_html (Viešai prieinami failai matomi lankytojams)
