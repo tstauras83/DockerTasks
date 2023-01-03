@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projecto_failai/public_html/assignments/kursiustiduomenis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/kursiustiduomenis.php" beforeDir="false" />
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\assignments" />
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai" />
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials2" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html" />
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials 2" />
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\assignments" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,8 +93,16 @@
       <workItem from="1672384414145" duration="11127000" />
       <workItem from="1672643027270" duration="14944000" />
       <workItem from="1672675685608" duration="1113000" />
-      <workItem from="1672726535689" duration="710000" />
+      <workItem from="1672726535689" duration="13603000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1672730071061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672730071061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
