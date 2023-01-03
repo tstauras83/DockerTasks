@@ -16,7 +16,7 @@ class ComposerStaticInit1c1567ea4dc2715a91faa8feb4d0b1a8
     public static $prefixDirsPsr4 = array (
         'tstauras83\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/public_html/factorials2',
         ),
     );
 

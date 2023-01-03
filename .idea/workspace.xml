@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="initial commit">
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="Adding composer autoload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <workItem from="1672384414145" duration="11127000" />
       <workItem from="1672643027270" duration="14944000" />
       <workItem from="1672675685608" duration="1113000" />
-      <workItem from="1672726535689" duration="13603000" />
+      <workItem from="1672726535689" duration="16495000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -102,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672730071061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding composer autoload">
+      <created>1672754169105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672754169105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding composer autoload">
+      <created>1672754189917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672754189917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Adding composer autoload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding composer autoload" />
   </component>
 </project>
