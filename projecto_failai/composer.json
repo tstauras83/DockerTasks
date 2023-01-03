@@ -1,0 +1,16 @@
+{
+    "name": "tstauras83/portfolio",
+    "description": "Tauras Semaska Portfolio project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "tstauras83\\": "src\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tauras Semaska"
+        }
+    ],
+    "require": {}
+}
