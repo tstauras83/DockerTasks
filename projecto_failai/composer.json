@@ -12,5 +12,7 @@
             "name": "Tauras Semaska"
         }
     ],
-    "require": {}
+    "require": {
+        "monolog/monolog": "2.8.0"
+    }
 }

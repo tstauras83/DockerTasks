@@ -4,10 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="Adding composer autoload">
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="testing composer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/Calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/ConcreteFactorialCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/Factorial.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/FactorialCalculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/PositiveNumberChecker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Arrays.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/carAssignments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/carTask.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/classesAssignment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/gapHTML.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/getAndPost.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/kursiustiduomenis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/people.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/peopleArray.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/personAssignment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/students.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/duomenys.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Input.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Output.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Car2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Cars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/DataRendering.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/DbConnect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/EmailClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Kupe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Person.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/SakykLabas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Student.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,21 +83,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai" />
@@ -94,7 +137,9 @@
       <workItem from="1672384414145" duration="11127000" />
       <workItem from="1672643027270" duration="14944000" />
       <workItem from="1672675685608" duration="1113000" />
-      <workItem from="1672726535689" duration="16495000" />
+      <workItem from="1672726535689" duration="16755000" />
+      <workItem from="1672815862481" duration="2368000" />
+      <workItem from="1672819700555" duration="3151000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -117,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672754189917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing composer">
+      <created>1672757913734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672757913734</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Adding composer autoload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding composer autoload" />
+    <MESSAGE value="testing composer" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing composer" />
   </component>
 </project>
