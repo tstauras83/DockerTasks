@@ -7,10 +7,23 @@ use Monolog\Handler\StreamHandler;
 require __DIR__ . '/../vendor/autoload.php';
 
 
-
 // create a log channel
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler('Test.log', Logger::WARNING));
+$log = new Logger('Portfolio');
+$log->pushHandler(new StreamHandler('../Logs/errors.log', Logger::WARNING));
 
-$log->warning('Foo');
-$log->error('Bar');
+
+
+try {
+
+    $i = 0;
+    if ($i=1){
+        throw new exception('is not 0');
+    }else{
+        throw new exception('is 0');
+    }
+
+
+} catch (Exception $e) {
+    echo $e;
+    $log->error($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
+}

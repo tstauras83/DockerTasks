@@ -4,54 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="testing composer">
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="Project Cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/Calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/ConcreteFactorialCalculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/Factorial.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/FactorialCalculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/abstracts/PositiveNumberChecker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Factorials/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Arrays.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/Temperatures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/carAssignments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/carTask.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/classesAssignment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/gapHTML.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/getAndPost.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/kursiustiduomenis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/people.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/peopleArray.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/personAssignment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/assignments/students.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/duomenys.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Input.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/Output.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/factorials2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Test.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Car2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Cars.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/DataRendering.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/DbConnect.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/EmailClient.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Kupe.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Logger.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Person.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/SakykLabas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Student.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\Logs" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials2" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials 2" />
-      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\assignments" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,7 +95,7 @@
       <workItem from="1672675685608" duration="1113000" />
       <workItem from="1672726535689" duration="16755000" />
       <workItem from="1672815862481" duration="2368000" />
-      <workItem from="1672819700555" duration="3151000" />
+      <workItem from="1672819700555" duration="5650000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -169,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672757913734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project Cleanup">
+      <created>1672823192426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672823192426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +153,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Adding composer autoload" />
     <MESSAGE value="testing composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing composer" />
+    <MESSAGE value="Project Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Cleanup" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+[2023-01-04T09:22:17.066678+00:00] Portfolio.ERROR: Error [] []
+[2023-01-04T09:24:51.939957+00:00] Portfolio.ERROR: Error {"file":"/var/www/html/public_html/index.php","line":18} []
+[2023-01-04T09:37:48.661681+00:00] Portfolio.ERROR: is not 0 {"file":"/var/www/html/public_html/index.php","line":21} []
+[2023-01-04T09:40:26.725938+00:00] Portfolio.ERROR: is not 0 {"file":"/var/www/html/public_html/index.php","line":21} []
+[2023-01-04T09:40:40.763066+00:00] Portfolio.ERROR: is 0 {"file":"/var/www/html/public_html/index.php","line":19} []
+[2023-01-04T09:43:49.321430+00:00] Portfolio.ERROR: is not 0 {"file":"/var/www/html/public_html/index.php","line":20} []
+[2023-01-04T09:44:23.540287+00:00] Portfolio.ERROR: is not 0 {"file":"/var/www/html/public_html/index.php","line":20} []
