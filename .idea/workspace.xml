@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="Project Cleanup">
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="error log testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/Test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\src" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\Logs" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials2" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html" />
-      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials 2" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,7 +98,7 @@
       <workItem from="1672675685608" duration="1113000" />
       <workItem from="1672726535689" duration="16755000" />
       <workItem from="1672815862481" duration="2368000" />
-      <workItem from="1672819700555" duration="5650000" />
+      <workItem from="1672819700555" duration="18636000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672823192426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="error log testing">
+      <created>1672825604464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672825604464</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +164,7 @@
     <MESSAGE value="Adding composer autoload" />
     <MESSAGE value="testing composer" />
     <MESSAGE value="Project Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Cleanup" />
+    <MESSAGE value="error log testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="error log testing" />
   </component>
 </project>

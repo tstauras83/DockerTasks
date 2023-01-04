@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "tstauras83\\": "public_html\\factorials2\\"
+            "tstauras83\\": "src\\"
         }
     },
     "authors": [
