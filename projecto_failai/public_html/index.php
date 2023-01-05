@@ -2,6 +2,7 @@
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
+use tstauras83\Authenticator;
 use tstauras83\FS;
 use tstauras83\HTMLRender;
 use tstauras83\Output;
@@ -25,15 +26,12 @@ try {
         session_destroy();
     }
 
-    if(
-        isset($_SESSION['logged']) && $_SESSION['logged'] === true || ($username === 'admin' && $password === 'admin')) {
+   $authenticator = new Authenticator();
+    if ($authenticator->authenticate($username, $password)) {
         $_SESSION['logged'] = true;
         $_SESSION['username'] = $username ?? $_SESSION['username'];
-
         $render = new HTMLRender($output);
-
         $render->render();
-
     }else{
         $fileSystem = new FS('../src/html/start.html');
         $fileContents = $fileSystem->getFileContents();
