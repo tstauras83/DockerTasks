@@ -3,11 +3,10 @@
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use tstauras83\FS;
+use tstauras83\HTMLRender;
 use tstauras83\Output;
 
-
 require __DIR__ . '/../vendor/autoload.php';
-
 
 // create a log channel
 $log = new Logger('Portfolio');
@@ -29,10 +28,11 @@ try {
     if(
         isset($_SESSION['logged']) && $_SESSION['logged'] === true || ($username === 'admin' && $password === 'admin')) {
         $_SESSION['logged'] = true;
-        $fileSystem = new FS('../src/html/dashboard.html');
-        $fileContents = $fileSystem->getFileContents();
-        $fileContents = str_replace('<h4>Welcome User! ...</h4><br>', '<h4>Welcome ' . $username . '! ...</h4><br>', $fileContents);
-        $output->store($fileContents);
+        $_SESSION['username'] = $username ?? $_SESSION['username'];
+
+        $render = new HTMLRender($output);
+
+        $render->render();
 
     }else{
         $fileSystem = new FS('../src/html/start.html');
@@ -46,8 +46,6 @@ try {
     $output->store('Error');
     $log->error($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
 }
-
-
 
 $output->print();
 
