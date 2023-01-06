@@ -4,11 +4,7 @@ namespace tstauras83\Controllers;
 
 class PortfolioController
 {
-
-
-    public function __construct()
-    {
-    }
+    
 
     public function index()
     {

@@ -40,11 +40,10 @@ class Authenticator
 
         foreach ($loginData as $username => $pass) {
             if ($checkUser === $username && $checkPass === $pass) {
-                $_SESSION['logged'] = true;
-                $_SESSION['username'] = $checkUser ?? $_SESSION['username'];
                 return true;
             }
+
         }
-        return false;
+        throw new UnauthenticatedException();
     }
 }

@@ -2,6 +2,7 @@
 
 namespace tstauras83;
 
+
 use tstauras83\Exceptions\PageNotFoundException;
 
 class Router

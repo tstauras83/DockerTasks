@@ -2,13 +2,12 @@
 
 namespace tstauras83\Controllers;
 
-use tstauras83\HTMLRender;
 
 class AdminController
 {
-    public function index()
+    public function index(): string
     {
-        return 'ADMIN page';
+        return 'ADMIN puslapis';
 //        $render = new HtmlRender($output);
 //        $render->render();
     }
