@@ -7,11 +7,11 @@
     <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="added Routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Authenticator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/ContactsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/PortfolioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/PortfolioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/StartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/StartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,28 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tstau/Desktop/CodeAcademy lessons/Docker Tasks/projecto_failai/public_html/css",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\src\html" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\src" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\Logs" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai" />
       <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html\factorials2" />
-      <recent name="C:\Users\tstau\Desktop\CodeAcademy lessons\Docker Tasks\projecto_failai\public_html" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +107,7 @@
       <workItem from="1672815862481" duration="2368000" />
       <workItem from="1672819700555" duration="19981000" />
       <workItem from="1672902251519" duration="18442000" />
-      <workItem from="1672988713809" duration="13486000" />
+      <workItem from="1672988713809" duration="16657000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672998121390</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Routing">
+      <created>1673007243301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673007243301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

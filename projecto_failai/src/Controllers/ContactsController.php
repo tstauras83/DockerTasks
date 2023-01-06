@@ -2,6 +2,8 @@
 
 namespace tstauras83\Controllers;
 
+use tstauras83\FS;
+
 class ContactsController
 {
 
@@ -11,8 +13,8 @@ class ContactsController
 
     public function index()
     {
-        return 'ADMIN page';
-//        $render = new HtmlRender($output);
-//        $render->render();
+        $fileSystem = new FS('../src/html/contacts.html');
+        $fileContents = $fileSystem->getFileContents();
+        return $fileContents;
     }
 }

@@ -2,14 +2,16 @@
 
 namespace tstauras83\Controllers;
 
+use tstauras83\FS;
+
 class PortfolioController
 {
-    
+
 
     public function index()
     {
-        return 'ADMIN page';
-//        $render = new HtmlRender($output);
-//        $render->render();
+        $fileSystem = new FS('../src/html/portfolio.html');
+        $fileContents = $fileSystem->getFileContents();
+        return $fileContents;
     }
 }
