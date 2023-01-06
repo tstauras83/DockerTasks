@@ -6,10 +6,21 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit1c1567ea4dc2715a91faa8feb4d0b1a8
 {
+    public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '0e423a14e27410a071e5d815d3ffc856' => __DIR__ . '/..' . '/larapack/dd/src/helper.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
             'tstauras83\\' => 11,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\VarDumper\\' => 28,
         ),
         'P' => 
         array (
@@ -25,6 +36,14 @@ class ComposerStaticInit1c1567ea4dc2715a91faa8feb4d0b1a8
         'tstauras83\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
         'Psr\\Log\\' => 
         array (

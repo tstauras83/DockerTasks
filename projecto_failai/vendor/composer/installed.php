@@ -10,6 +10,15 @@
         'dev' => true,
     ),
     'versions' => array(
+        'larapack/dd' => array(
+            'pretty_version' => '1.1',
+            'version' => '1.1.0.0',
+            'reference' => '561b5111a13d0094b59b5c81b1572489485fb948',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../larapack/dd',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'monolog/monolog' => array(
             'pretty_version' => '2.8.0',
             'version' => '2.8.0.0',
@@ -33,6 +42,24 @@
             'provided' => array(
                 0 => '1.0.0 || 2.0.0 || 3.0.0',
             ),
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'v1.27.0',
+            'version' => '1.27.0.0',
+            'reference' => '8ad114f6b39e2c98a8b0e3bd907732c207c2b534',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/var-dumper' => array(
+            'pretty_version' => 'v6.0.17',
+            'version' => '6.0.17.0',
+            'reference' => '7d8e7c3c67c77790425ebe33691419dada154e65',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/var-dumper',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'tstauras83/portfolio' => array(
             'pretty_version' => '1.0.0+no-version-set',

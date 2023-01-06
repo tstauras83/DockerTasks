@@ -13,6 +13,7 @@
         }
     ],
     "require": {
-        "monolog/monolog": "2.8.0"
+        "monolog/monolog": "2.8.0",
+        "larapack/dd": "^1.1"
     }
 }

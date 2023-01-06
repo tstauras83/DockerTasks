@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="simple login system. with login html, and a dashboard">
+    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="Authenication moved to authenticator.php class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Authenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/HTMLRender.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/HTMLRender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +107,8 @@
       <workItem from="1672726535689" duration="16755000" />
       <workItem from="1672815862481" duration="2368000" />
       <workItem from="1672819700555" duration="19981000" />
-      <workItem from="1672902251519" duration="4754000" />
+      <workItem from="1672902251519" duration="18442000" />
+      <workItem from="1672988713809" duration="8492000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -147,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672842711966</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created render classes and functionality">
+      <created>1672909047727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672909047727</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Authenication moved to authenticator.php class">
+      <created>1672913857082</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672913857082</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +197,8 @@
     <MESSAGE value="Project Cleanup" />
     <MESSAGE value="error log testing" />
     <MESSAGE value="simple login system. with login html, and a dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple login system. with login html, and a dashboard" />
+    <MESSAGE value="created render classes and functionality" />
+    <MESSAGE value="Authenication moved to authenticator.php class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authenication moved to authenticator.php class" />
   </component>
 </project>
