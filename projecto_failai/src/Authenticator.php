@@ -6,15 +6,13 @@ use tstauras83\Exceptions\UnauthenticatedException;
 
 class Authenticator
 {
-
-    public function __construct()
+    /**
+     */
+    public function authenticate(): void
     {
-
-    }
-
-    public function authenticate(string|null $username, string|null $password): bool
-    {
-        return $this->isLoggedIn() || !empty($username) && !empty($password) && $this->login($username, $password);
+        if ($this->isLoggedIn()) {
+            return;
+        }
     }
 
     /**
@@ -33,17 +31,31 @@ class Authenticator
      */
     public function login(string $checkUser, string $checkPass): bool
     {
-        $loginData = [
+        $loginsMas = [
             'admin' => 'admin',
-            'Tauras' => 'Sem',
+            'tauras' => 'pass',
         ];
 
-        foreach ($loginData as $username => $pass) {
+        foreach ($loginsMas as $username => $pass) {
             if ($checkUser === $username && $checkPass === $pass) {
+                $_SESSION['logged'] = true;
+                $_SESSION['username'] = $checkUser ?? $_SESSION['username'];
                 return true;
             }
-
         }
+
         throw new UnauthenticatedException();
+    }
+
+    public function logout(): void
+    {
+        // Vieta kur atjungiam lakytoja ir sunaikinam jo sesija
+        if ($_GET['logout'] ?? false) {
+            $_SESSION['logged'] = false;
+            $_SESSION['username'] = null;
+            session_destroy();
+            header('Location: /');
+            exit();
+        }
     }
 }

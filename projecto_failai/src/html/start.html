@@ -1,26 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mano portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
-    <title>PHP projects</title>
 </head>
 <body>
-<h1>Hello</h1>
-
-
-<form id="loginForm" style="display: block" name="LoginForm" action="/" method="POST">
-    <input type="text" name="username" placeholder="username">
-    <input type="password" name="password" placeholder="password">
-    <input type="submit" value="Login">
+<h1>Sveiki apsilanke mano puslapyje</h1>
+<div class="message">{{message}}</div>
+<form action="/login" method="post">
+    <input type="text" name="username" placeholder="Iveskite savo prisijungimo varda">
+    <input type="password" name="password" placeholder="Nurodykite slaptazodi">
+    <input type="submit" value="Siusti">
 </form>
-
-
-
 </body>
 </html>
-
