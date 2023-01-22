@@ -6,7 +6,7 @@ use Monolog\Logger;
 use tstauras83\Authenticator;
 use tstauras83\Controllers\AdminController;
 use tstauras83\Controllers\ContactsController;
-use tstauras83\Controllers\PortfolioController;
+use tstauras83\Controllers\PersonController;
 use tstauras83\Controllers\StartController;
 use tstauras83\Exceptions\RenderingDashboardException;
 use tstauras83\Exceptions\UnauthenticatedException;
@@ -34,7 +34,13 @@ try {
     $router->addRoute('GET', 'admin', [$adminController, 'index']);
     $router->addRoute('POST', 'login', [$adminController, 'login']);
     $router->addRoute('GET', 'contacts', [$contactController, 'index']);
-    $router->addRoute('GET', 'portfolio', [new PortfolioController(), 'index']);
+    $router->addRoute('GET', 'person', [new PersonController(), 'index']);
+    $router->addRoute('GET', 'person/new', [new PersonController(), 'new']);
+    $router->addRoute('GET', 'person/edit', [new PersonController(), 'edit']);
+    $router->addRoute('POST', 'person/update', [new PersonController(), 'update']);
+    $router->addRoute('GET', 'person/delete', [new PersonController(), 'delete']);
+    $router->addRoute('GET', 'person/view', [new PersonController(), 'view']);
+    $router->addRoute('POST', 'person', [new PersonController(), 'store']);
     $router->addRoute('GET', 'logout', [$adminController, 'logout']);
     $router->run();
 }
@@ -42,6 +48,8 @@ catch (Exception $e) {
     $handler = new ExceptionHandler($output, $log);
     $handler->handle($e);
 }
+
+
 
 // Spausdinam viska kas buvo 'Storinta' Output klaseje
 $output->print();

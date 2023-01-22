@@ -1,12 +1,17 @@
 {
-    "name": "kaunas-coding-school/web",
-    "description": "Kaunas Coding School Web kurso mokomoji medžaga, praktinės užduotys",
-    "type": "project",
-    "version": "1.0.0",
-    "authors": [
-        {
-            "name": "Tautvydas Dulskis",
-            "email": "tautvydas@dulskis.eu"
-        }
-    ]
+  "name": "kaunas-coding-school/web",
+  "description": "Kaunas Coding School Web kurso mokomoji medžaga, praktinės užduotys",
+  "type": "project",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Tautvydas Dulskis",
+      "email": "tautvydas@dulskis.eu"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "2.8.0",
+    "larapack/dd": "^1.1",
+    "ext-pdo": "*"
+  }
 }

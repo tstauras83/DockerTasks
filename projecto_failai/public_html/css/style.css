@@ -1,5 +1,6 @@
-body{
+.body{
     font-size: 20px !important;
+    background-color: #061854;
 }
 .row{
     margin-left: 0 !important;
@@ -168,9 +169,8 @@ input[type=submit]:hover {
 }
 
 
-.container {
+.card {
 
-    background-color: #585353;
-    padding: 0 0 250px 0;
-    margin-left: 33%;
+    background-color: #7d8bbb;
+    margin-left:30%;
 }
