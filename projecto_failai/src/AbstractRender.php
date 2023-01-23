@@ -10,10 +10,6 @@ abstract class AbstractRender
     {
         $this->output = $output;
     }
-    public function render()
-    {
-        $this->output->store($this->getContent());
-    }
-    abstract protected function getContent();
+    abstract protected function setContent(mixed $content);
 
 }

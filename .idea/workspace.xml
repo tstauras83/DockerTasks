@@ -4,32 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="address controller and response routing">
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/AddressController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/html/addressHTML/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/html/addressHTML/new_address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/html/addressHTML/update_address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/html/addressHTML/view_address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/html/layout/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projecto_failai/src/services/Container.php" afterDir="false" />
+    <list default="true" id="ea750781-af20-4acb-8342-bc7f92b13c30" name="Changes" comment="readding vendor file since it was deleted for no reason">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/Logs/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/public_html/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/AbstractRender.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/AbstractRender.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/BaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/ContactsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/PersonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/PersonController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Controllers/StartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Controllers/StartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/HTMLRender.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/HTMLRender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Response.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/new_persons.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/new_persons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/layout/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/layout/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/update_persons.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/update_persons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projecto_failai/src/html/view_persons.html" beforeDir="false" afterPath="$PROJECT_DIR$/projecto_failai/src/html/view_persons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +48,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpDebugGeneral" break_at_first_line="true" hide_empty_superglobals="false" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="3fb20faf-6b9c-4d16-846d-ba6f451feccb" name="ServerMap" use_path_mappings="true">
@@ -130,7 +119,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91132a45-e4e1-437b-9a42-1340e6810c41" name="Changes" comment="" />
+      <changelist id="ea750781-af20-4acb-8342-bc7f92b13c30" name="Changes" comment="readding vendor file since it was deleted for no reason" />
       <created>1671520927561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -174,6 +163,7 @@
       <workItem from="1674192892303" duration="34742000" />
       <workItem from="1674404038567" duration="13479000" />
       <workItem from="1674456000895" duration="7662000" />
+      <workItem from="1674491612809" duration="1809000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1672730071061</created>
@@ -280,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674404856298</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="readding vendor file since it was deleted for no reason">
+      <created>1674466480095</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674466480095</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +308,7 @@
     <MESSAGE value="starting work on debug and warnings" />
     <MESSAGE value="DB work, html, php and more." />
     <MESSAGE value="address controller and response routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="address controller and response routing" />
+    <MESSAGE value="readding vendor file since it was deleted for no reason" />
+    <option name="LAST_COMMIT_MESSAGE" value="readding vendor file since it was deleted for no reason" />
   </component>
 </project>

@@ -18,8 +18,8 @@ use tstauras83\Router;
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/../vendor/larapack/dd/src/helper.php';
 
-$log = new Logger('Portfolio');
-$log->pushHandler(new StreamHandler('../logs/errors.log', Logger::WARNING));
+$log = new Logger('Portfolios');
+$log->pushHandler(new StreamHandler('../logs/klaidos.log', Logger::INFO));
 
 $output = new Output();
 
@@ -28,16 +28,16 @@ try {
 
     $authenticator = new Authenticator();
     $adminController = new AdminController($authenticator);
-    $kontaktaiController = new ContactsController($log);
+    $contactController = new ContactsController($log);
     $personController = new PersonController();
     $addressController = new AddressController();
 
-    $router = new Router();
+    $router = new Router($output);
     $router->addRoute('GET', '', [new StartController(), 'index']);
     $router->addRoute('GET', 'admin', [$adminController, 'index']);
     $router->addRoute('POST', 'login', [$adminController, 'login']);
     $router->addRoute('GET', 'logout', [$adminController, 'logout']);
-    $router->addRoute('GET', 'contacts', [$kontaktaiController, 'index']);
+    $router->addRoute('GET', 'contacts', [$contactController, 'index']);
     $router->addRoute('GET', 'person', [$personController, 'index']);
     $router->addRoute('GET', 'person/new', [$personController, 'new']);
     $router->addRoute('GET', 'person/delete', [$personController, 'delete']);
@@ -60,7 +60,5 @@ catch (Exception $e) {
     $handler->handle($e);
 }
 
-// Spausdinam viska kas buvo 'Storinta' Output klaseje
-$output->print();
 
 

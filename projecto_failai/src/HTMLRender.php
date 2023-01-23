@@ -5,34 +5,29 @@ namespace tstauras83;
 use Exception;
 use tstauras83\FS;
 
-class HTMLRender extends AbstractRender
+class HtmlRender extends AbstractRender
 {
-    /**
-     * @throws Exception
-     */
-    protected function getContent(): string {
-        $fileSystem = new FS('../src/html/dashboard.html');
-        $fileContents = $fileSystem->getFileContents();
-        $userData = [
-            'username' => $_SESSION['username'],
-            'userType' => 'Admin',
-            'loggedInDate' => date('Y-m-d H:i:s'),
-            'error' => 'has to return error',
-        ];
-        foreach ($userData as $key => $value) {
-            $fileContents = str_replace('{{' . $key . '}}',  $value, $fileContents);
-        }
-        $keys = ['error', 'username', 'userType', 'loggedInDate'];
-        $notFound = [];
-
-        foreach ($keys as $key) {
-            if (!str_contains($fileContents, $userData[$key])) {
-                $notFound[] = $key;
+    public function setContent(mixed $content)
+    {
+        // Iš kontrolerio funkcijos gautą atsakymą talpiname į main.html layout failą
+        $fs = new FS('../src/html/layout/main.html');
+        $fileContents = $fs->getFileContents();
+//        $title = $this->controller::TITLE;
+//        $fileContents = str_replace("{{title}}", $title, $fileContents);
+        if (is_array($content)) {
+            foreach ($content as $key => $item) {
+                $fileContents = str_replace("{{{$key}}}", $item, $fileContents);
             }
+        } else {
+            $fileContents = str_replace("{{content}}", $content, $fileContents);
         }
-        if (!empty($notFound)) {
-            throw new Exception('The following keys were not found in dashboard.html: ' . implode(', ', $notFound));
+
+        // Išvalomi Templeituose likę {{}} tagai
+        preg_match_all('/{{(.*?)}}/', $fileContents, $matches);
+        foreach ($matches[0] as $key) {
+            $fileContents = str_replace($key, '', $fileContents);
         }
-        return $fileContents;
+
+        $this->output->store($fileContents);
     }
 }
