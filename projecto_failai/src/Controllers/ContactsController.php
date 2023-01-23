@@ -5,7 +5,9 @@ namespace tstauras83\Controllers;
 use tstauras83\FS;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-class ContactsController
+use tstauras83\Response;
+
+class ContactsController extends BaseController
 {
     private Logger $log;
 
@@ -15,13 +17,13 @@ class ContactsController
     }
 
 
-    public function index()
+    public function index(): Response
     {
         $fileSystem = new FS('../src/html/contacts.html');
         $fileContents = $fileSystem->getFileContents();
         $this->log->warning('Contacts Page Vsisited');
 
-        return $fileContents;
+        return new Response($fileContents);
     }
 
 

@@ -1,7 +1,9 @@
-.body{
+body{
     font-size: 20px !important;
-    background-color: #061854;
+    background-color: #333333;
+    color: #fff;
 }
+
 .row{
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -13,12 +15,14 @@ header{
     background-color: #333333;
 
 }
+
 nav{
     display: flex;
     justify-content: right;
     align-items: center;
     background-color: #333333;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -26,12 +30,14 @@ nav ul {
     overflow: hidden;
     background-color: #333;
 }
+
 nav li {
     float: left;
     transition:background-color 700ms;
     background-color: #333333;
     overflow: hidden;
 }
+
 nav li a {
     display: block;
     color: white;
@@ -39,6 +45,7 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 nav li:hover {
     background-color: #585353;
 }
@@ -71,15 +78,15 @@ main{
     text-decoration: none;
     background-color: #333333;
     transition:background-color 700ms;
-
 }
+
 .main-button:hover{
     background-color: #585353;
 }
+
 h3{
     text-align: center;
 }
-
 
 .article-styles{
     text-align: center;
@@ -88,6 +95,7 @@ h3{
     padding: 50px 10px 100px 10px;
     margin:auto;
 }
+
 .article-button{
     display: block;
     color: white;
@@ -107,7 +115,6 @@ article div table tr td{
     background-color: #444141;
     border: 2px solid #333333;
 }
-
 
 .footer {
     margin-top: 20px;
@@ -140,8 +147,6 @@ article div table tr td{
     height: 50px;
 }
 
-
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -153,7 +158,6 @@ input[type=text], select, textarea {
     resize: vertical
 }
 
-
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -163,14 +167,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
 .card {
-
-    background-color: #7d8bbb;
+    background-color: #258EA6;
     margin-left:30%;
+    border-radius: 40px;
 }

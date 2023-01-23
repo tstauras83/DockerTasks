@@ -21,10 +21,20 @@ class Router
         $this->routes[$method][$url] = $controllerData;
     }
 
+    public function get(string $url, array $controllerData): void
+    {
+        $this->addRoute('GET', $url, $controllerData);
+    }
+
+    public function post(string $url, array $controllerData): void
+    {
+        $this->addRoute('POST', $url, $controllerData);
+    }
+
     /**
      * @throws PageNotFoundException
      */
-    public function run():void
+    public function run(): void
     {
         // Iš $_SERVER paimame užklausos metodą ir URL adresą
         $method = $_SERVER['REQUEST_METHOD'];
@@ -41,11 +51,33 @@ class Router
             $action = $controllerData[1];
             // Iškviečiamas kontrolierio ($controller) objektas ir kviečiamas jo metodas ($action)
             $response = $controller->$action();
+            if($response instanceof Response && $response->redirect) {
+                header('location: ' . $response->redirectUrl);
+                $response->redirect = false;
+                exit;
+            }
         } else {
             throw new PageNotFoundException("Adresas: [$method] /$url nerastas");
         }
 
-        // Spausinam $response kuris gautas iš Controllerio atitinkamo metodo
-        echo $response;
+        if (!$response instanceof Response) {
+            throw new \Exception('Controllerio metodas turi grąžinti Response objektą');
+        }
+        $response = $response->content;
+
+        // Iš kontrolerio funkcijos gautą atsakymą talpiname į main.html layout failą
+        $filesystem = new FS('../src/html/layout/main.html');
+        $fileContent = $filesystem->getFileContents();
+        $title = $controller::TITLE;
+        $fileContent = str_replace("{{title}}", $title, $fileContent);
+        $fileContent = str_replace("{{content}}", $response, $fileContent);
+
+        // Išvalomi Templeituose likę {{}} tagai
+        preg_match_all('/{{(.*?)}}/', $fileContent, $matches);
+        foreach ($matches[0] as $key) {
+            $fileContent = str_replace($key, '', $fileContent);
+        }
+
+        echo $fileContent;
     }
 }

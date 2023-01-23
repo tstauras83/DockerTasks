@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{header}}
+    <title>{{title}}</title>
+</head>
+<body>
+<h1 class="text-center">Create New Person</h1>
+
+<div class="col-xxl-4 col-xl-4 col-md-12 col-sm-12 container">
+
+    <form action="/address" method="POST">
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Country ISO</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="country_iso" placeholder="Country ISO">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Country ISO</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="city" placeholder="City">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Street</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="street" placeholder="Street">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">PostCode</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="postcode" placeholder="PostCode">
+            </div>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
+
+

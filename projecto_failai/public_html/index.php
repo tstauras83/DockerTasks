@@ -1,5 +1,6 @@
 <?php
 
+use tstauras83\Controllers\AddressController;
 use tstauras83\ExceptionHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -27,21 +28,31 @@ try {
 
     $authenticator = new Authenticator();
     $adminController = new AdminController($authenticator);
-    $contactController = new ContactsController($log);
+    $kontaktaiController = new ContactsController($log);
+    $personController = new PersonController();
+    $addressController = new AddressController();
 
     $router = new Router();
     $router->addRoute('GET', '', [new StartController(), 'index']);
     $router->addRoute('GET', 'admin', [$adminController, 'index']);
     $router->addRoute('POST', 'login', [$adminController, 'login']);
-    $router->addRoute('GET', 'contacts', [$contactController, 'index']);
-    $router->addRoute('GET', 'person', [new PersonController(), 'index']);
-    $router->addRoute('GET', 'person/new', [new PersonController(), 'new']);
-    $router->addRoute('GET', 'person/edit', [new PersonController(), 'edit']);
-    $router->addRoute('POST', 'person/update', [new PersonController(), 'update']);
-    $router->addRoute('GET', 'person/delete', [new PersonController(), 'delete']);
-    $router->addRoute('GET', 'person/view', [new PersonController(), 'view']);
-    $router->addRoute('POST', 'person', [new PersonController(), 'store']);
     $router->addRoute('GET', 'logout', [$adminController, 'logout']);
+    $router->addRoute('GET', 'contacts', [$kontaktaiController, 'index']);
+    $router->addRoute('GET', 'person', [$personController, 'index']);
+    $router->addRoute('GET', 'person/new', [$personController, 'new']);
+    $router->addRoute('GET', 'person/delete', [$personController, 'delete']);
+    $router->addRoute('GET', 'person/edit', [$personController, 'edit']);
+    $router->addRoute('GET', 'person/view', [$personController, 'view']);
+    $router->addRoute('POST', 'person', [$personController, 'store']);
+    $router->addRoute('POST', 'person/update', [$personController, 'update']);
+
+    $router->addRoute('GET', 'address', [$addressController, 'index']);
+    $router->addRoute('GET', 'address/new', [$addressController, 'new']);
+    $router->addRoute('GET', 'address/delete', [$addressController, 'delete']);
+    $router->addRoute('GET', 'address/edit', [$addressController, 'edit']);
+    $router->addRoute('GET', 'address/view', [$addressController, 'view']);
+    $router->addRoute('POST', 'address', [$addressController, 'store']);
+    $router->addRoute('POST', 'address/update', [$addressController, 'update']);
     $router->run();
 }
 catch (Exception $e) {
@@ -49,10 +60,7 @@ catch (Exception $e) {
     $handler->handle($e);
 }
 
-
-
 // Spausdinam viska kas buvo 'Storinta' Output klaseje
 $output->print();
-
 
 

@@ -10,14 +10,9 @@
     <div class="card" style="width: 40%; vertical-align: middle;" >
         <img  style="border-radius: 40px" class="" src="http://localhost/image/tauras.jpg" width="100%"/>
         <div class="card-body">
-            <h5 class="card-title">{{first_name}} displayed info</h5>
+            <h5 class="card-title">{{id}} displayed info</h5>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item">First Name: {{first_name}}</li>
-            <li class="list-group-item">Last Name: {{last_name}}</li>
-            <li class="list-group-item">Email: {{email}}</li>
-            <li class="list-group-item">Personal Code: {{code}}</li>
-            <li class="list-group-item">Phone Number: {{phone}}</li>
             <li class="list-group-item">Addresss ID: {{address_id}}</li>
             <li class="list-group-item">Country ISO: {{country_iso}}</li>
             <li class="list-group-item">City: {{city}}</li>
@@ -25,10 +20,10 @@
             <li class="list-group-item">Postcode: {{postcode}}</li>
         </ul>
         <div class="card-body">
-            <a class="btn btn-success" href="/person/edit?id={{id}}"
+            <a class="btn btn-success" href="/address/edit?id={{id}}"
                class="card-link">Edit</a>
-            <a class="btn btn-danger" href="/person/delete?id={{id}}">Delete</a>
-            <a class="btn btn-danger" href="/person">Return To Table</a>
+            <a class="btn btn-danger" href="/address/delete?id={{id}}">Delete</a>
+            <a class="btn btn-danger" href="/address">Return To Table</a>
         </div>
     </div>
 </div>

@@ -6,11 +6,12 @@ namespace tstauras83\Controllers;
 use tstauras83\Authenticator;
 use tstauras83\Exceptions\UnauthenticatedException;
 use tstauras83\FS;
+use tstauras83\Response;
 
-class AdminController
+class AdminController extends BaseController
 {
     private Authenticator $authenticator;
-
+    // BAD PRACTICE: DI metu priskirti numatytasias (Default) reiksmes
     public function __construct(Authenticator $authenticator = null)
     {
         $this->authenticator = $authenticator ?? new Authenticator();
@@ -19,13 +20,13 @@ class AdminController
     /**
      * @throws UnauthenticatedException
      */
-    public function index()
+    public function index(): Response
     {
         if (!$this->authenticator->isLoggedIn()) {
             throw new UnauthenticatedException();
         }
 
-        return 'ADMIN puslapis';
+        return new Response('ADMIN puslapis');
 //        $render = new HtmlRender($output);
 //        $render->render();
     }
@@ -33,7 +34,7 @@ class AdminController
     /**
      * @throws UnauthenticatedException
      */
-    public function login(): void
+    public function login()
     {
         $userName = $_POST['username'] ?? null;
         $password = $_POST['password'] ?? null;
@@ -45,7 +46,7 @@ class AdminController
     }
 
 
-    public function logout(): string
+    public function logout()
     {
         $this->authenticator->logout();
         return '';

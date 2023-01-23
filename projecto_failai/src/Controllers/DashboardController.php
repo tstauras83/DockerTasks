@@ -3,9 +3,10 @@
 namespace tstauras83\Controllers;
 
 use tstauras83\HTMLRender;
+use tstauras83\Response;
 
 
-class DashboardController
+class DashboardController extends BaseController
 {
     private HTMLRender $render;
 
@@ -17,7 +18,7 @@ class DashboardController
     /**
      * @throws \Exception
      */
-    public function index(): string
+    public function index(): Response
     {
         $data = [
             'username' => $_SESSION['username'],
@@ -25,6 +26,6 @@ class DashboardController
             'loggedInDate' => date('Y-m-d H:i:s'),
             'error' => 'has to return error',
         ];
-        return $this->render->render('../src/html/dashboard.html', $data);
+        return new Response($this->render->render('../src/html/dashboard.html', $data));
     }
 }
